@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Crumbs | Homemade with Love</title>
+    <meta name="description" content="Beautiful handcrafted cakes, cupcakes, cookies and desserts made with love.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">✿</span>
+                Sweet Crumbs
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#menu">Our Menu</a>
+                <a href="#about">Our Story</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#order" class="nav-button">Order a Cake</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <span class="eyebrow">A little sweetness goes a long way</span>
+
+            <h1>
+                Baked with love.<br>
+                <span>Made for moments.</span>
+            </h1>
+
+            <p>
+                Homemade cakes, delicate pastries and sweet little
+                treats made fresh from our kitchen to yours.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="primary-button">Explore Our Menu</a>
+                <a href="#about" class="text-button">Our Story ↗</a>
+            </div>
+
+            <div class="hero-note">
+                <span>♡</span>
+                Made fresh with the finest ingredients
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=85"
+                alt="Beautiful homemade chocolate cake"
+            >
+
+            <div class="image-badge">
+                <span>Made</span>
+                <strong>With Love</strong>
+                <span>♡</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="feature">
+            <span class="feature-icon">♡</span>
+            <h3>Made with Love</h3>
+            <p>Every creation is handmade with care.</p>
+        </div>
+
+        <div class="feature">
+            <span class="feature-icon">✿</span>
+            <h3>Fresh Ingredients</h3>
+            <p>Only the finest ingredients make the cut.</p>
+        </div>
+
+        <div class="feature">
+            <span class="feature-icon">✧</span>
+            <h3>Custom Creations</h3>
+            <p>Personalized treats for your special moments.</p>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu-section" id="menu">
+
+        <div class="section-heading">
+            <span class="eyebrow">Our Little Bakery</span>
+            <h2>Sweet things to <span>love</span></h2>
+            <p>A collection of our most-loved homemade delights.</p>
+        </div>
+
+        <div class="product-grid">
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=800&q=85"
+                        alt="Strawberry cake"
+                    >
+                    <span class="product-tag">Bestseller</span>
+                </div>
+
+                <div class="product-info">
+                    <h3>Strawberry Dream Cake</h3>
+                    <p>Soft vanilla sponge, fresh strawberries and silky cream.</p>
+                    <div class="product-bottom">
+                        <span class="price">₹850</span>
+                        <button class="order-button" data-product="Strawberry Dream Cake">
+                            Order ↗
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=85"
+                        alt="Decorated cupcakes"
+                    >
+                </div>
+
+                <div class="product-info">
+                    <h3>Pretty Little Cupcakes</h3>
+                    <p>Fluffy cupcakes topped with dreamy buttercream.</p>
+                    <div class="product-bottom">
+                        <span class="price">₹450</span>
+                        <button class="order-button" data-product="Pretty Little Cupcakes">
+                            Order ↗
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?auto=format&fit=crop&w=800&q=85"
+                        alt="Freshly baked cookies"
+                    >
+                </div>
+
+                <div class="product-info">
+                    <h3>Chocolate Chip Cookies</h3>
+                    <p>Golden, chewy cookies loaded with chocolate.</p>
+                    <div class="product-bottom">
+                        <span class="price">₹300</span>
+                        <button class="order-button" data-product="Chocolate Chip Cookies">
+                            Order ↗
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?auto=format&fit=crop&w=800&q=85"
+                        alt="Chocolate brownies"
+                    >
+                </div>
+
+                <div class="product-info">
+                    <h3>Rich Chocolate Brownies</h3>
+                    <p>Fudgy, decadent and a little bit irresistible.</p>
+                    <div class="product-bottom">
+                        <span class="price">₹350</span>
+                        <button class="order-button" data-product="Rich Chocolate Brownies">
+                            Order ↗
+                        </button>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+
+        <div class="menu-cta">
+            <p>Have something special in mind?</p>
+            <a href="#order" class="primary-button">Let's Create Something Sweet</a>
+        </div>
+
+    </section>
+
+    <!-- About -->
+    <section class="about-section" id="about">
+
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1000&q=85"
+                alt="Warm home baking kitchen"
+            >
+        </div>
+
+        <div class="about-content">
+            <span class="eyebrow">A Story of Butter & Love</span>
+
+            <h2>Not just baked.<br><span>Made from the heart.</span></h2>
+
+            <p>
+                What started as a little love for baking has turned into
+                a beautiful journey of creating sweet memories.
+            </p>
+
+            <p>
+                Every cake, cookie and cupcake is made in our home kitchen
+                using carefully chosen ingredients, a sprinkle of creativity
+                and lots of love.
+            </p>
+
+            <p>
+                We believe the best desserts aren't just delicious.
+                They bring people together.
+            </p>
+
+            <a href="#contact" class="text-button">Get to know us ↗</a>
+        </div>
+
+    </section>
+
+    <!-- Custom Order -->
+    <section class="custom-order" id="order">
+
+        <div class="custom-order-content">
+            <span class="eyebrow">Your Occasion, Our Creation</span>
+
+            <h2>Dream it.<br><span>We'll bake it.</span></h2>
+
+            <p>
+                Birthdays, anniversaries, celebrations or simply a sweet
+                surprise — tell us what you're dreaming of.
+            </p>
+
+            <a href="#contact" class="primary-button">Request a Custom Cake</a>
+        </div>
+
+        <div class="custom-order-image">
+            <img
+                src="https://images.unsplash.com/photo-1535254973040-607b474cb50d?auto=format&fit=crop&w=1000&q=85"
+                alt="Elegant custom celebration cake"
+            >
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+
+        <div class="section-heading">
+            <span class="eyebrow">Kind Words</span>
+            <h2>Made with love,<br><span>loved by you.</span></h2>
+        </div>
+
+        <div class="testimonial-grid">
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "The cake was absolutely beautiful and tasted even better.
+                    Everyone at the party wanted to know where it came from!"
+                </p>
+                <span class="testimonial-name">— Priya M.</span>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "You can taste the love in every bite. The cupcakes
+                    were perfect, and the presentation was gorgeous."
+                </p>
+                <span class="testimonial-name">— Ananya R.</span>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="stars">★★★★★</div>
+                <p>
+                    "My custom birthday cake was exactly what I imagined.
+                    Such attention to detail. Highly recommend!"
+                </p>
+                <span class="testimonial-name">— Sneha K.</span>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+
+        <div class="contact-content">
+            <span class="eyebrow">Let's Make Something Sweet</span>
+            <h2>We'd love to hear<br><span>from you.</span></h2>
+
+            <p>
+                Have a question, an idea or an upcoming celebration?
+                Send us a message and let's make it delicious.
+            </p>
+
+            <div class="contact-details">
+                <p>✉ hello@sweetcrumbs.com</p>
+                <p>📍 Your City, India</p>
+                <p>♡ Made fresh to order</p>
+            </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="occasion">What are you celebrating?</label>
+                <select id="occasion" name="occasion">
+                    <option value="">Select an occasion</option>
+                    <option>Birthday</option>
+                    <option>Anniversary</option>
+                    <option>Wedding</option>
+                    <option>Baby Shower</option>
+                    <option>Corporate Event</option>
+                    <option>Just Because</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Tell us about your sweet idea</label>
+                <textarea id="message" name="message" rows="4" placeholder="I'd love a chocolate cake with..." required></textarea>
+            </div>
+
+            <button type="submit" class="primary-button submit-button">
+                Send Your Message ↗
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-top">
+            <a href="#" class="logo footer-logo">
+                <span class="logo-icon">✿</span>
+                Sweet Crumbs
+            </a>
+
+            <p>Making everyday a little sweeter.</p>
+
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">Instagram ↗</a>
+                <a href="#" aria-label="Facebook">Facebook ↗</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Sweet Crumbs. Made with ♡ and flour.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
